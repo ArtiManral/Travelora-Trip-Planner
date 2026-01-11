@@ -18,7 +18,7 @@ const Index = () => {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 60_000);
 
-    const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+    const API_URL = (import.meta.env.VITE_API_URL || "http://localhost:5000").replace(/\/$/, '');
 
     try {
       const res = await fetch(`${API_URL}/api/generate-itinerary`, {
