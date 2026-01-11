@@ -22,10 +22,7 @@ const Footer = () => {
 
           <span className="hidden sm:inline">•</span>
 
-          <span className="flex items-center gap-1">
-            Powered by
-            <Sparkles className="h-4 w-4 text-primary" aria-hidden="true" />
-            AI
+          <span className="flex items-center gap-1"> Powered by AI
           </span>
         </p>
       </div>

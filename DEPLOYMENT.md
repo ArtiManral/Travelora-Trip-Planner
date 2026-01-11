@@ -69,11 +69,11 @@ VITE_API_URL=http://localhost:5000
 
 ### Important Notes
 
-- ✅ Environment variables are already configured for local development
-- ✅ The API URL is now configurable via `VITE_API_URL`
-- ⚠️ Don't commit `.env` files (already in `.gitignore`)
-- ⚠️ Remember to set `VITE_API_URL` in Vercel dashboard for production
-- ⚠️ Make sure to add your actual GROQ API key in both local and production environments
+- Environment variables are already configured for local development
+- The API URL is now configurable via `VITE_API_URL`
+- Don't commit `.env` files (already in `.gitignore`)
+- Remember to set `VITE_API_URL` in Vercel dashboard for production
+- Make sure to add your actual GROQ API key in both local and production environments
 
 ### Troubleshooting
 

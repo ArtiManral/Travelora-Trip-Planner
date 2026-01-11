@@ -37,7 +37,7 @@ const Index = () => {
       setItinerary(response);
 
       toast({
-        title: "Itinerary Created! 🎉",
+        title: "Itinerary Created!",
         description: "Your personalized travel plan is ready.",
       });
 
